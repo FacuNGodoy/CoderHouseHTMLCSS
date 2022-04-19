@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "valorant";
+    src: url(../Assets/fonts/Valorant\ Font.ttf);
+}
+/* GRILLA DESKTOP */
+.contenedor_index {
+    display:grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 70px auto 600px 100px;
+    grid-template-areas: "nav nav nav"
+                         "vid vid vid"
+                         "fotos fotos fotos"
+                         "pie pie pie";
+}
+/* NAVEGACION */
+.barra{
+    background-color: rgb(18, 24, 38);
+    color: white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: nav;
+}
+.menuNav{
+    font-family: "valorant";
+}
+.menuh{
+    display:none;
+}
+.logo{
+    height: 70px;
+}
+.logo img{
+    height: 100%;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.redes{
+    height: 70px;
+}
+.redes img{
+    height: 70%;
+    padding: 10px;
+}
+/* VIDEO */
+.cabezahome{
+    grid-area: vid;
+}
+.separador{
+    height: 650px;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+}
+video::-webkit-media-controls {
+    display: none;
+}
+/* SECCIONES */
+.sections{
+    grid-area: fotos;
+}
+.carrusel{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color:rgb(18, 24, 38) ;
+    height: 100%;
+}
+.tarjetas{
+    border-style: groove;
+    border-color: white;
+    border-width: 5px;
+    margin-top: 15px;
+    height: 95%;
+}
+.tarjetas img{
+    height: 100%;
+}
+.tarjetaCharacter{
+    border-style: groove;
+    border-color: white;
+    border-width: 5px;
+    margin-top: 15px;
+}
+/* FOOTER */
+.pie{
+    background-color: rgb(18, 24, 38);
+    color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    grid-area: pie;
+}
+.pie h4{
+    padding: 15px;
+}
+/* GRID CHARACTERS */
+.contenedor_characters{
+    display:grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 70px auto 600px 100px;
+    grid-template-areas: "nav nav nav"
+                         "fotch fotch fotch"
+                         "fotos fotos fotos"
+                         "pie pie pie";
+}
+/* IMAGEN CHARACTERS */
+.separador_characters{
+    grid-area: fotch;
+}
+.separadorCharacters{
+    background-image: url(../img/Agentes.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+/* AGENTES */
+.carrusel h2{
+    color: white;
+    font-family: "valorant";
+    text-align: center;
+    font-size: 30px;
+}
+.tarjetaCharacter{
+    height: 90%;
+}
+.tarjetaCharacter img{
+    height: 90%;
+}
+/* IMAGEN MAPS */
+.separadorMaps{
+    background-image: url(../img/menu_mapas.JPG);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+/* MAPAS */
+.maps{
+    border-style: groove;
+    border-color: white;
+    border-width: 5px;
+    height: 500px;
+    width: 800px;
+    margin-top: 15px;
+}
+.maps img{
+    height: 93%;
+    width: 100%;
+}
+/* MERCADO */
+.tarjetasShop{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(18, 24, 38);
+    border-radius: 10px ;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color:white;
+    border-style: groove;
+    border-color: white;
+    border-width: 5px
+}
+.tarjetasShop img{
+    width: 100%;
+    height: 80%;
+}
+.tarjetaTitulo{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.tarjetasShop p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-top: 15px;
+    text-align: left;
+}
+.boton{
+    width: 100px;
+    height: 30px;
+}
+/* IMAGEN MERCADO */
+.separadorShop{
+    background-image: url(../img/separadorMerchandising.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+/* CONTACTO */
+.contacto{
+    background-color: rgb(18, 24, 38);
+}
+.formulario{
+    margin-top: 20px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulario label{
+    font-size: 20px;
+}
+.formulario input{
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+}
+.formulario textarea{
+    width: 200px;
+    height: 100px;
+}
+.formulario select{
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+}
+.formulario h3{
+    font-size: 45px;
+    font-style: italic;
+    text-align: center;
+}
+.headercontacto{
+    background-color: rgb(18, 24, 38);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.headercontacto img{
+    width: 900px;
+}
+/* TEXTO CONTACTO */
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    color: white;
+}
+.presentacion__somos{
+    width: 50%;
+}
+.presentacion__contactanos{
+    width: 50%;
+}
+.presentacion__contactanos h2{
+    font-size: 45px;
+    font-style: italic;
+}
+.presentacion__contactanos p{
+    font-size: 20px;
+}
+.presentacion__somos h2{
+    font-size: 45px;
+    font-style: italic;
+}
+.presentacion__somos p{
+    font-size: 20px;
+}
+/* MEDIA HOME */
+@media (max-width:450px){
+    .menuNav ul li a{
+        font-size: 15px;
+    }
+    .video{
+        height: 300px;
+    }
+    .separador{
+        height: 250px;
+    }
+    .tarjetas{   
+        margin-top: 15px;
+        height: 30%;
+    }
+    .contenedor_index{
+        display:grid;
+        grid-template-columns: 30% 40% 30%;
+        grid-template-rows: 70px auto 800px 100px;
+        grid-template-areas: "nav nav nav"
+                             "vid vid vid"
+                             "fotos fotos fotos"
+                             "pie pie pie";
+    }
+    .carrusel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:300px){
+    .menuNav ul{
+        display: none;
+    }
+    .menuh{
+        display: block;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* MEDIA CHARACTERS */
+@media (max-width:450px){
+    .tarjetaCharacter{
+        width: 40%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tarjetaCharacter img{
+        height: 85%;
+    }
+    .carrusel h2{
+        font-size: 25px;
+    }
+    .separadorCharacters{
+        height: 400px;
+    }
+}
+@media (max-width:300px){
+    .carrusel h2{
+        font-size: 18px;
+    }
+}
+/* MEDIA MAPS */
+@media (max-width:450px){
+    .separadorMaps{
+        width: 100%;
+        height: 300px;
+    }
+    .maps{
+        width: 80%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:300px){
+    .carrusel h2{
+        font-size: 18px;
+    }
+}
+/* MEDIA SHOP */
+@media (max-width:450px){
+    .separadorShop{
+        width: 100%;
+        height: 120px;
+    }
+    .tarjetasShop{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tarjetaTitulo{
+        font-size: 15px;
+    }
+    .tarjetasShop img{
+        width: 100px;
+    }
+}
+@media (max-width:300px){
+    .carrusel h2{
+        font-size: 18px;
+    }
+}
+/* MEDIA CONTACTO */
+@media (max-width:450px){
+    .headercontacto img{
+        width: 100%;
+    }
+    .presentacion{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    .presentacion__contactanos{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:300px){
+     .carrusel h2{
+         font-size: 18px;
+        }
+}
