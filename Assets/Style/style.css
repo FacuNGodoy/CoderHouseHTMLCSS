@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: "valorant";
-    src: url(../Assets/fonts/Valorant\ Font.ttf);
+    src: url(../fonts/Valorant_Font.ttf);
 }
 /* GRILLA DESKTOP */
 .contenedor_index {
@@ -64,7 +64,6 @@ a {
 }
 .separador{
     height: 650px;
-    background-image: url("../img/fondo.jpg");
     background-size: cover;
     display: flex;
     align-items: center;
