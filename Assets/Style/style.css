@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@font-face {
+    font-family: "valorant";
+    src: url(../fonts/Valorant_Font.ttf);
+}
+.contenedor{
+    background-color: rgb(18,24,38);
+}
+.navbar , footer{
+    background-color: rgb(18,24,38) !important;
+    color: white;
+}
+.navbar-nav{
+    font-family: "valorant";
+    color: white;
+}
+.sizeSm{
+    width:300px;
+}
+.video_ocultarSm{
+    display: none;
+}
+video::-webkit-media-controls {
+    display: none;
+}
+.menuTarjetas{
+    border-style: groove;
+    border-color: white;
+    border-width: 5px;
+    transition: 2s;
+}
+.menuTarjetas:hover{
+    transform: scale(1.04);
+}
+.Character_name{
+    font-style: none;
+    font-family: "valorant";
+    color:white;
+    font-size: 30px;
+    text-decoration: none;
+}
+.tarjetaTitulo{
+    color: white;
+}
+.menuTarjetas p{
+    color: white;
+}
+.menuTarjetas{
+    padding:0;
+}
+.presentacion{
+    color: white;
+    font-size: 19px;
+}
+.menuMd_CT{
+    display: flex;
+    justify-content: center;
+}
+.formulario{
+    color: white;
+}
+.formulario form input{
+    margin:5px;
+    padding: 5px;
+}
+.pie {
+    background-color: rgb(2, 33, 54) !important;
+}
+footer h6{
+    font-size: 12px;
+}
+@media (min-width:768px){
+    .menuMd{
+        height: 350px;
+        overflow: hidden;
+    }
+    .menuMd img{
+        display: none;
+    }
+    .video_ocultarSm{
+        display: flex;
+        width: 100%;
+    }
+    .navbar{
+        font-size: 24px;
+    }
+}
+@media (min-width:1200px){
+    .menuMd{
+        height: 600px;
+        overflow: hidden;
+    }
+    .sizeSm{
+        width:500px;
+    }
+    .menuMd_CH{
+        height: 600px;
+        overflow: hidden;
+    }
+    .menuMd_MP{
+        height: 600px;
+        overflow: hidden;
+    }
+    .menuMd_CT{
+        height: 400px;
+    }
+}
