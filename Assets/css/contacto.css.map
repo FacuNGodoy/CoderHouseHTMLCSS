@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,IAAI;CAClB;;AACD,AAAA,UAAU,CAAA;EACN,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CAC1B",
+    "sources": [
+        "../scss/contacto.scss"
+    ],
+    "names": [],
+    "file": "contacto.css"
+}

@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "valorant";
+  src: url(../fonts/Valorant_Font.ttf);
+}
+
+.navbar {
+  background-color: #121826 !important;
+  color: white;
+}
+
+.navbar .navbar-nav {
+  font-family: "valorant";
+  color: white;
+}
+
+.video_ocultarSm {
+  display: none;
+}
+
+video::-webkit-media-controls {
+  display: none;
+}
+
+.menuTarjetas {
+  width: 300px;
+  border-style: groove;
+  border-color: white;
+  border-width: 5px;
+  transition: 2s;
+}
+
+.menuTarjetas p {
+  color: white;
+}
+
+.menuTarjetas:hover {
+  transform: scale(1.04);
+}
+
+.Character_name {
+  font-style: none;
+  font-family: "valorant";
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.tarjetaTitulo {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .menuMd {
+    height: 350px;
+    overflow: hidden;
+  }
+  .menuMd img {
+    display: none;
+  }
+  .video_ocultarSm {
+    display: flex;
+    width: 100%;
+  }
+  .navbar {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .menuMd {
+    height: 600px;
+    overflow: hidden;
+  }
+  .sizeSm {
+    width: 500px;
+  }
+  .menuMd_CH {
+    height: 600px;
+    overflow: hidden;
+  }
+  .menuMd_MP {
+    height: 600px;
+    overflow: hidden;
+  }
+  .menuMd_CT {
+    height: 400px;
+  }
+}
+
+.formulario {
+  color: white;
+}
+
+.formulario form input {
+  margin: 5px;
+  padding: 5px;
+}
+
+.pie {
+  background-color: #022136 !important;
+  color: white;
+}
+
+.pie h6 {
+  font-size: 12px;
+}
+
+.contenedor {
+  background-color: #121826;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.presentacion {
+  color: white;
+  font-size: 19px;
+}
+
+.menuMd_CT {
+  display: flex;
+  justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */

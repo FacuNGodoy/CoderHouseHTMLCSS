@@ -1,0 +1,12 @@
+.menuTarjetas {
+  width: 300px;
+  border-style: groove;
+  border-color: white;
+  border-width: 5px;
+  transition: 2s;
+}
+
+.menuTarjetas .menuTarjetas:hover {
+  transform: scale(1.04);
+}
+/*# sourceMappingURL=tarjetas.css.map */

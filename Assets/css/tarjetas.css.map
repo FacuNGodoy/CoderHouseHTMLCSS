@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,KAAK,EAAC,KAAK;EACX,YAAY,EAAE,MAAM;EACpB,YAAY,EAAE,KAAK;EACnB,YAAY,EAAE,GAAG;EACjB,UAAU,EAAE,EAAE;CAIjB;;AATD,AAMI,aANS,CAMT,aAAa,AAAA,MAAM,CAAA;EACf,SAAS,EAAE,WAAW;CACzB",
+    "sources": [
+        "../scss/tarjetas.scss"
+    ],
+    "names": [],
+    "file": "tarjetas.css"
+}
