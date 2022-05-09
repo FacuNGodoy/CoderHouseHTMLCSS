@@ -1,18 +1,16 @@
 @media (min-width:1200px){
     .menuMd{
-        height: 600px;
-        overflow: hidden;
+        height: map-get($map: menudesk, $key: altura);
+        overflow: map-get($map: menudesk, $key: overflow);
     }
     .sizeSm{
         width:500px;
     }
     .menuMd_CH{
-        height: 600px;
-        overflow: hidden;
+        @extend .menuMd;
     }
     .menuMd_MP{
-        height: 600px;
-        overflow: hidden;
+        @extend .menuMd;
     }
     .menuMd_CT{
         height: 400px;
