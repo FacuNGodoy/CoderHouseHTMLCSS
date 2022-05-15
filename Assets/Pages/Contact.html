@@ -36,12 +36,40 @@
               </div>
             </div>
           </nav>
-          <div class="menuMd_CT">
-            <img class="img_menu img-fluid" src="../img/contacto-min.png" alt="Izi Way contacto">
-          </div>
     </header>
     <main class="contacto">
-        <section class="presentacion d-flex flex-column">    
+      <section class="d-flex contactmenu">
+        <div>
+          <img src="../img/Contacto.jpg" class="img-fluid d-flex align-items-center" alt="Contacto Izi way">
+        </div>
+        <div class="d-flex justify-content-center flex-column text-center presentacion">
+          <h2>¿Quiénes somos?</h2>
+          <p>Somos un grupo de aficonados que nos conocimos dentro del juego. Juntos diseñamos e ideamos una página para mejorar la experiencia de la comunidad, dando ideas y estrategias para lograr subir de rango. </p>
+          <h3>Escribínos</h3>
+          <form method="get" class="d-flex flex-column justify-content-center align-items-center py-2 formulario">
+              <label for="Nombre">Nombre o Username</label>
+                  <input name="Nombre">
+              <label for="Comentario">Comentario</label>
+                  <textarea name="Comentario"></textarea>
+              <label for="Rango">Rango</label>
+                  <select name="Rango">
+                      <option value="Hierro">Hierro</option>
+                      <option value="Bronce">Bronce</option>
+                      <option value="Plata">Plata</option>
+                      <option value="Oro">Oro</option>
+                      <option value="Platino">Platino</option>
+                      <option value="Diamante">Diamante</option>
+                      <option value="Inmortal">Inmortal</option>
+                      <option value="Gran Master">Gran Master</option>
+                  </select>
+              <label for="Tyc">Terminos y Condiciones</label>
+                  <input type="checkbox" name="TyC">
+              <input type="submit" value="Enviar comentario">
+              <input type="reset" value="Borrar">
+          </form>
+        </div>
+      </section>
+        <!-- <section class="presentacion d-flex flex-column">    
             <div class="presentacion__somos">
                 <h2>¿Quiénes somos?</h2>
                 <p>Somos un grupo de aficonados que nos conocimos dentro del juego. Juntos diseñamos e ideamos una página para mejorar la experiencia de la comunidad, dando ideas y estrategias para lograr subir de rango. </p>
@@ -50,31 +78,7 @@
                 <h2>Contáctenos</h2>
                 <p>Si tienes algún comentario o crees que nos puedes ayudar a mejorar, no dudes en comunicarte.</p>
             </div>
-        </section>
-        <section class="formulario d-flex flex-column justify-content-center align-items-center py-4">
-            <h3>Escribínos</h3>
-                <form method="get" class="d-flex flex-column justify-content-center align-items-center py-2">
-                    <label for="Nombre">Nombre o Username</label>
-                        <input name="Nombre">
-                    <label for="Comentario">Comentario</label>
-                        <textarea name="Comentario"></textarea>
-                    <label for="Rango">Rango</label>
-                        <select name="Rango">
-                            <option value="Hierro">Hierro</option>
-                            <option value="Bronce">Bronce</option>
-                            <option value="Plata">Plata</option>
-                            <option value="Oro">Oro</option>
-                            <option value="Platino">Platino</option>
-                            <option value="Diamante">Diamante</option>
-                            <option value="Inmortal">Inmortal</option>
-                            <option value="Gran Master">Gran Master</option>
-                        </select>
-                    <label for="Tyc">Terminos y Condiciones</label>
-                        <input type="checkbox" name="TyC">
-                    <input type="submit" value="Enviar comentario">
-                    <input type="reset" value="Borrar">
-                </form>
-        </section>
+        </section> -->
     </main>
     <footer class="pie text-center p-2">
         <h3>Acerca de</h3>
