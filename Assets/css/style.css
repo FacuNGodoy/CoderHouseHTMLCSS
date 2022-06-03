@@ -20,10 +20,15 @@
 
 .presentacion {
   color: black;
-  font-size: 19px;
+  font-size: 18px;
   background-color: white;
-  padding: 60px;
+  padding: 30px 60px;
   border-radius: 30px;
+}
+
+.presentacion .desc {
+  margin-top: 2px;
+  padding-bottom: 150px;
 }
 
 .contactmenu {
@@ -47,6 +52,15 @@
 .presentacion form input {
   margin: 5px;
   padding: 5px;
+}
+
+textarea {
+  width: 260px;
+  height: 200px;
+}
+
+select {
+  margin-bottom: 10px;
 }
 
 .contenedor {
@@ -129,10 +143,51 @@ video::-webkit-media-controls {
 .pie {
   background-color: #022136;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
-.pie h6 {
-  font-size: 12px;
+.pie h3 {
+  font-size: 30px;
+  letter-spacing: 0.8px;
+  word-spacing: 0px;
+  font-weight: 700;
+  text-decoration: underline solid #e0e0e0;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: none;
+}
+
+.pie .seccionRedes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.pie .texto_redes {
+  margin: 2px;
+  font-size: x-large;
+}
+
+.pie .seccionRedes a {
+  padding: 2px;
+}
+
+.seccion_link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.seccion_link:hover {
+  color: #ee6c73;
 }
 
 @media (min-width: 768px) {
